@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-const Utils = require('../Utils')
+const Utils = require('./../Utils')
 
 const groupSchema = new mongoose.Schema({
     interest: {

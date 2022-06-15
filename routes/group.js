@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const Utils = require('../utils')
+const Utils = require('./../Utils')
 const Group = require('../models/Group')
 
 // GET- get all groups ---------------------------

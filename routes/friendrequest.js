@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const Utils = require('../utils')
+const Utils = require('./../Utils')
 const Friendrequest = require('../models/Friendrequest')
 
 // GET- get all friendrequest ---------------------------

@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const Utils = require('../utils')
+const Utils = require('./../Utils')
 const Interest = require('../models/Interest')
 
 // GET- get all interests ---------------------------

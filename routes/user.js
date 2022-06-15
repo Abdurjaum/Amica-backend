@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const Utils = require('./../utils')
+const Utils = require('./../Utils')
 const User = require('./../models/User')
 const path = require('path')
 
